@@ -9,20 +9,20 @@ import (
 	"time"
 )
 
-var (
-	// Define the operation that the worker should execute
-	operations          = []string{"addition", "subtract"}
-
-	// Define the amount of tasks that we are going to put to the queue
-	amountOfTasks       = 5
-
-	// Define the amount of jobs that each task will contain
-	amountOfJobsPerTask = rand.Intn(1e1) // random number between 0 and 10
-)
-
 func main() {
 	// Improve random algorithm with a valid seeder
 	rand.Seed(time.Now().Unix())
+
+	var (
+		// Define the operation that the worker should execute
+		operations          = []string{"addition", "subtract"}
+
+		// Define the amount of tasks that we are going to put to the queue
+		amountOfTasks       = 5
+
+		// Define the amount of jobs that each task will contain
+		amountOfJobsPerTask = rand.Intn(1e1) // random number between 0 and 10
+	)
 
 	fmt.Println("amountOfTasks: ", amountOfTasks)
 	fmt.Println("amountOfJobsPerTask: ", amountOfJobsPerTask)

@@ -19,4 +19,4 @@ Any feedback/suggestion is more than welcome :)
 
 ## Example
 
-![Work Example](https://github.com/rbadillap/go-workers-example/raw/master/example.gif "Work example")
+![Work Example](https://user-images.githubusercontent.com/3170758/44691397-be661480-aa1b-11e8-87be-1ac048e84916.gif "Work example")
